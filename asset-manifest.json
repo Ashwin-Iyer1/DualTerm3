@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DualTerm3/static/css/main.f1681845.css",
-    "main.js": "/DualTerm3/static/js/main.8a579d49.js",
+    "main.js": "/DualTerm3/static/js/main.dcacc073.js",
     "static/js/453.ed3810f9.chunk.js": "/DualTerm3/static/js/453.ed3810f9.chunk.js",
     "static/media/Dorian1.png": "/DualTerm3/static/media/Dorian1.d9424dd83e10311912fc.png",
     "static/media/Dorian2.png": "/DualTerm3/static/media/Dorian2.022d3034b741d9c3f284.png",
@@ -10,11 +10,11 @@
     "static/media/Dorian5.png": "/DualTerm3/static/media/Dorian5.eeec3b67a719ef9b0472.png",
     "index.html": "/DualTerm3/index.html",
     "main.f1681845.css.map": "/DualTerm3/static/css/main.f1681845.css.map",
-    "main.8a579d49.js.map": "/DualTerm3/static/js/main.8a579d49.js.map",
+    "main.dcacc073.js.map": "/DualTerm3/static/js/main.dcacc073.js.map",
     "453.ed3810f9.chunk.js.map": "/DualTerm3/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1681845.css",
-    "static/js/main.8a579d49.js"
+    "static/js/main.dcacc073.js"
   ]
 }

@@ -1,38 +1,69 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #121212;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* Use Flexbox */
+  justify-content: space-between;
+  /* Items are evenly distributed in the flex container */
+  align-items: flex-start;
+  /* Align items at the start of the cross axis */
+  padding: 20px;
+  /* Add some padding for spacing */
+}
+h2{
+  color:white;
+
+}
+p{
+  color:white;
+
+}
+#button{
+  color:white;
+  background-color: #121212;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  visibility: hidden;
+  
+
+}
+.explanation{
+  color:white;
+
+}
+.quiz-synopsis{
+  color:white;
+
+
+}
+.selected-option{
+  color: black;
+}
+.selected-option selected-open{
+  color:black;
+
+
+}
+.dropdown-options-item{
+  color:black;
+
+}
+div{
+  color:white;
+}
+/* Style for the quiz container */
+#quiz {
+  width: 60%;
+  /* Adjust the width of the quiz container */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for the image */
+#image {
+  width: 30%;
+  /* Adjust the width of the image */
+  height: auto;
+  /* Maintain aspect ratio */
 }

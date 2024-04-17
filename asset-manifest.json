@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DualTerm3/static/css/main.f1681845.css",
-    "main.js": "/DualTerm3/static/js/main.dcacc073.js",
+    "main.css": "/DualTerm3/static/css/main.e30d665e.css",
+    "main.js": "/DualTerm3/static/js/main.9df83bb4.js",
     "static/js/453.ed3810f9.chunk.js": "/DualTerm3/static/js/453.ed3810f9.chunk.js",
     "static/media/Dorian1.png": "/DualTerm3/static/media/Dorian1.d9424dd83e10311912fc.png",
     "static/media/Dorian2.png": "/DualTerm3/static/media/Dorian2.022d3034b741d9c3f284.png",
@@ -9,12 +9,12 @@
     "static/media/Dorian4.png": "/DualTerm3/static/media/Dorian4.334199d13104486e94a9.png",
     "static/media/Dorian5.png": "/DualTerm3/static/media/Dorian5.eeec3b67a719ef9b0472.png",
     "index.html": "/DualTerm3/index.html",
-    "main.f1681845.css.map": "/DualTerm3/static/css/main.f1681845.css.map",
-    "main.dcacc073.js.map": "/DualTerm3/static/js/main.dcacc073.js.map",
+    "main.e30d665e.css.map": "/DualTerm3/static/css/main.e30d665e.css.map",
+    "main.9df83bb4.js.map": "/DualTerm3/static/js/main.9df83bb4.js.map",
     "453.ed3810f9.chunk.js.map": "/DualTerm3/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1681845.css",
-    "static/js/main.dcacc073.js"
+    "static/css/main.e30d665e.css",
+    "static/js/main.9df83bb4.js"
   ]
 }

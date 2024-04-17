@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from 'react';
 import Quiz from 'react-quiz-component';
 import Dorian1 from './Images/Dorian1.png';
 import Dorian2 from './Images/Dorian2.png';
@@ -87,33 +88,38 @@ export const quiz =  {
 
   ]
 } 
-var wrongs = 0;
-var imageList = [Dorian1, Dorian2, Dorian3, Dorian4, Dorian5]
-const handleQuestionSubmit = (question) => {
-  var dorian = document.getElementById('image');
-  
-  if (!question['isCorrect']) {
-      wrongs += 1;
-  }
-  dorian.src = imageList[wrongs];
-  console.log(wrongs);
-};
-const showbutton = () => {
-  var button = document.getElementById('button');
-  button.style.visibility = 'visible';
-}
-const refreshPage = () => {
-  window.location.reload();
-}
 function App() {
-  return (
+  var imageList = [Dorian1, Dorian2, Dorian3, Dorian4, Dorian5]
+  const [currentImageIndex, setCurrentImageIndex] = useState(0); // State 
+  const [isFadingOut, setIsFadingOut] = useState(false); // 
+  const handleQuestionSubmit = (question) => {
+    if (!question['isCorrect']) {
+      setIsFadingOut(true); // Trigger fading out effect
+      setTimeout(() => {
+        setCurrentImageIndex((prevIndex) => prevIndex + 1); // Move to the next image index
+        setIsFadingOut(false); // Reset fading out state
+      }, 300); // Wait for the fade-out transition to complete (adjust timing as needed)
+    }
+  };
+  const showButton = () => {
+    var button = document.getElementById('button');
+    button.style.visibility = 'visible';
+  }
+  const refreshPage = () => {
+    window.location.reload();
+  }
+
+return (
     <div className="App">
-      <Quiz id='quiz' quiz={quiz} showDefaultResult={true} onQuestionSubmit={handleQuestionSubmit} onComplete={showbutton}/>
+      <Quiz id='quiz' quiz={quiz} showDefaultResult={true} onQuestionSubmit={handleQuestionSubmit} onComplete={showButton}/>
       <button id='button' onClick={refreshPage}>Play Again</button>
-      <img id='image' src={Dorian1}/>
+      <img
+        id='image'
+        src={imageList[currentImageIndex]}
+        className={isFadingOut ? 'fade-out' : ''} // Apply fade-out class when fading out
+        alt={`Dorian ${currentImageIndex + 1}`}
+      />
     </div>
-    
   );
 }
-
 export default App;

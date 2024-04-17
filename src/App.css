@@ -62,8 +62,13 @@ div{
 
 /* Style for the image */
 #image {
+  transition: opacity 0.5s ease-in-out;
   width: 30%;
   /* Adjust the width of the image */
   height: auto;
   /* Maintain aspect ratio */
+}
+.fade-out {
+  opacity: 0;
+  /* Fade out effect */
 }

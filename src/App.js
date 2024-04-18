@@ -70,10 +70,10 @@ export const quiz =  {
         "A cigarette",
         "Swearing at a party"
       ],
-      "correctAnswer": "2",
+      "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct answer. Good job.",
       "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      "explanation": "Dorian Gray’s first act of sin was sleeping with Sibyl Vane. This act was the beginning of his downward spiral.",
+      "explanation": "Dorian Gray’s first act of sin was smoking a cigarette; his second sin was sleeping with Sibyl. This act was the beginning of his downward spiral.",
       "point": "25"
     }
   ]

@@ -6,11 +6,12 @@ import Dorian2 from './Images/Dorian2.png';
 import Dorian3 from './Images/Dorian3.png';
 import Dorian4 from './Images/Dorian4.png';
 import Dorian5 from './Images/Dorian5.png';
+
 export const quiz =  {
   "quizTitle": "Dorian Gray Quiz",
-  "quizSynopsis": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim",
+  "quizSynopsis": "A quiz on the book 𝘛𝘩𝘦 𝘗𝘪𝘤𝘵𝘶𝘳𝘦 𝘰𝘧 𝘋𝘰𝘳𝘪𝘢𝘯 𝘎𝘳𝘢𝘺 by Oscar Wilde. Made by Cameron Chin, Bailey Frazier, Jonathan Heidebrecht, Ashwin Iyer, and Catalina Lanuza",
   "nrOfQuestions": "4",
-    "questions": [
+  "questions": [
     {
       "question": "How can you access the state of a component from inside of a member function?",
       "questionType": "text",
@@ -70,7 +71,7 @@ export const quiz =  {
       "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "point": "25"
     },
-        {
+    {
       "question": "Which of the following concepts is/are key to ReactJS?",
       "questionType": "text",
       "answerSelectionType": "single",
@@ -85,9 +86,9 @@ export const quiz =  {
       "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "point": "25"
     },
-
   ]
 } 
+
 function App() {
   var imageList = [Dorian1, Dorian2, Dorian3, Dorian4, Dorian5]
   const [currentImageIndex, setCurrentImageIndex] = useState(0); // State 
@@ -109,7 +110,7 @@ function App() {
     window.location.reload();
   }
 
-return (
+  return (
     <div className="App">
       <Quiz id='quiz' quiz={quiz} showDefaultResult={true} onQuestionSubmit={handleQuestionSubmit} onComplete={showButton}/>
       <button id='button' onClick={refreshPage}>Play Again</button>
@@ -122,4 +123,5 @@ return (
     </div>
   );
 }
+
 export default App;

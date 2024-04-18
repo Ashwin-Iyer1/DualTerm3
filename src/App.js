@@ -13,79 +13,69 @@ export const quiz =  {
   "nrOfQuestions": "4",
   "questions": [
     {
-      "question": "How can you access the state of a component from inside of a member function?",
+      "question": "Who did Dorian Gray kill first, thus putting him past the point of no return?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "this.getState()",
-        "this.prototype.stateValue",
-        "this.state",
-        "this.values"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct answer. Good job.",
-      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "point": "25"
-    },
-    {
-      "question": "ReactJS is developed by _____?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Google Engineers",
-        "Facebook Engineers"
+        "Lord Henry",
+        "Basil",
+        "Sibyl Vane",
+        "He didn’t kill anyone"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct answer. Good job.",
       "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "explanation": "Basil was killed by Dorian in a fit of rage after Basil confronted Dorian about his actions.",
       "point": "25"
     },
     {
-      "question": "ReactJS is an MVC based framework?",
+      "question": "What color was the book that Lord Henry gave to Dorian?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "True",
-        "False"
+        "Black",
+        "Red",
+        "Yellow",
+        "What book?"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "The book that Lord Henry gave to Dorian was yellow. The book was a gift from Lord Henry to Dorian.",
+      "point": "25"
+    },
+    {
+      "question": "Where did Dorian Gray stash the painting once it started to transform?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Left it where it was",
+        "He destroyed it",
+        "His bedroom",
+        "The attic"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "Dorian Gray stashed the painting in his attic once it started to transform. He was afraid that someone would see it and find out about his secret.",
+      "point": "25"
+    },
+    {
+      "question": "What was Dorian Gray’s first act of “sin”? ",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Kissing Basil",
+        "Sleeping with Sibyl",
+        "A cigarette",
+        "Swearing at a party"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct answer. Good job.",
       "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "explanation": "Dorian Gray’s first act of sin was sleeping with Sibyl Vane. This act was the beginning of his downward spiral.",
       "point": "25"
-    },
-    {
-      "question": "Which of the following concepts is/are key to ReactJS?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Component-oriented design",
-        "Event delegation model",
-        "Both of the above",
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct answer. Good job.",
-      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "point": "25"
-    },
-    {
-      "question": "Which of the following concepts is/are key to ReactJS?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Test1",
-        "Test1",
-        "Test1",
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct answer. Good job.",
-      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "point": "25"
-    },
+    }
   ]
 } 
 
